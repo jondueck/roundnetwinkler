@@ -2,7 +2,8 @@
 Yellow: #FAF285
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700'); */
 
 * {
   box-sizing: border-box;
@@ -10,7 +11,7 @@ Yellow: #FAF285
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: -apple-system, sans-serif;
   color: #1F3733;
   font-size: 1.125rem;
   background: #FAF285;
@@ -50,12 +51,12 @@ h1 {
   margin-bottom: 4rem;
 }
 
-.site-logo {
+/* .site-logo {
   height: 1.5rem;
   margin-right: 1rem;
   margin-top: 0.25rem;
   margin-bottom: -0.25rem;
-}
+} */
 
 html,
 body {
@@ -72,4 +73,30 @@ body.holding {
 
 .holding .site-logo {
   height: 12rem;
+}
+
+.holding-links {
+  margin-top: 4rem;
+}
+
+.holding-links a {
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.holding-links a + a {
+  margin-left: 1rem;
+}
+
+.holding-links a:hover {
+  background-color: #1F3733;
+  color: #fff;
 }
