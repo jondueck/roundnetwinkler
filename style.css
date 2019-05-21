@@ -95,6 +95,8 @@ body.holding {
   align-items: center;
   flex-direction: column;
   background: linear-gradient(45deg, #049dd9 0%, #04b2d9 100%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   /* background: linear-gradient(45deg, #e8b840 0%, #ebcb45 100%); */
 }
 
@@ -104,6 +106,7 @@ body.holding {
 
 .holding-links {
   margin-top: 4rem;
+  text-align: center;
 }
 
 .holding-links a {
