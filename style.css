@@ -10,7 +10,7 @@ Yellow: #FAF285
   blue: #049dd9;
   teal: #04b2d9;
   yellow: #f2cb05;
-  gold: #f2n705;
+  gold: #f2b705;
 */
 
 html,
@@ -213,4 +213,52 @@ a {
 .btn {
   display: inline-block;
   border-radius: 0.5rem;
+  color: #fff;
+  background-color: #04b2d9;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #f2cb05;
+}
+
+.btn:active {
+  background-color: #f2b705;
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #04b2d9;
+}
+
+.btn--large {
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 640px) {
+  .events__table thead {
+    display: none;
+    visibility: hidden;
+  }
+  .events__table tr {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    position: relative;
+  }
+  .events__table td {
+    padding: 0.5rem 0;
+    position: relative;
+  }
+  .events__table td:first-of-type {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
