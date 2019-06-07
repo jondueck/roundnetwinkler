@@ -95,6 +95,7 @@ body.holding {
   align-items: center;
   flex-direction: column;
   background: linear-gradient(45deg, #049dd9 0%, #04b2d9 100%);
+  /* background-color: #f7f6f6; */
   padding-top: 4rem;
   padding-bottom: 4rem;
   /* background: linear-gradient(45deg, #e8b840 0%, #ebcb45 100%); */
@@ -114,7 +115,6 @@ body.holding {
   color: inherit;
   background: #fff;
   padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
   display: inline-block;
   font-size: inherit;
   text-transform: uppercase;
@@ -139,11 +139,13 @@ body.holding:after {
   right: 0;
   left: 0;
   overflow: hidden;
-  background-image: url('/assets/img/home-hero.jpg');
+  /* background-image: url('/assets/img/home-hero.jpg'); */
+  background-image: url('/assets/img/home-hero-2.jpg');
   opacity: 0.08;
   display: block;
   content: '';
   background-position: center center;
+  background-size: cover;
   z-index: -100;
 }
 
@@ -196,4 +198,19 @@ a {
   .events-title {
     font-size: 2rem;
   }
+}
+
+.rw-event-marker {
+  height: 0.75rem;
+  width: 0.75rem;
+  content: '';
+  overflow: hidden;
+  display: inline-block;
+  background-color: #f2cb05;
+  border-radius: 100%;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 0.5rem;
 }
